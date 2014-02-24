@@ -1,0 +1,11 @@
+[Unit]
+Description=blog
+After=hipache.service
+
+[Service]
+ExecStart=/usr/local/bin/docker start -a blog1
+ExecStop=/usr/local/bin/docker stop blog1
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

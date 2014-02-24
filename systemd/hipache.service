@@ -1,0 +1,11 @@
+[Unit]
+Description=hipache
+After=skydock.service
+
+[Service]
+ExecStart=/usr/local/bin/docker start -a hipache
+ExecStop=/usr/local/bin/docker stop hipache
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

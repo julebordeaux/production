@@ -1,0 +1,11 @@
+[Unit]
+Description=drone
+After=hipache.service
+
+[Service]
+ExecStart=/usr/local/bin/docker start -a drone
+ExecStop=/usr/local/bin/docker stop drone
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
