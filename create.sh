@@ -9,7 +9,6 @@ docker pull crosbymichael/skydock
 docker pull crosbymichael/skydns
 docker pull crosbymichael/hipache
 docker pull crosbymichael/rethinkdb
-docker pull crosbymichael/drone
 docker pull crosbymichael/minecraft
 docker pull crosbymichael/redis
 docker pull crosbymichael/blog
