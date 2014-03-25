@@ -11,7 +11,7 @@ docker pull crosbymichael/hipache
 docker pull crosbymichael/rethinkdb
 docker pull crosbymichael/drone
 docker pull crosbymichael/minecraft
-docker pull crosbymichael/redis-cli
+docker pull crosbymichael/redis
 docker pull crosbymichael/blog
 
 echo 'starting initial containers'
